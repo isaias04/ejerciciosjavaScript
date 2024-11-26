@@ -7,7 +7,7 @@
 </head>
 <body>
     <script>
-        let a, b, suma, resta, multiplicacion, resid, poten;
+        let a, b, suma, resta, multiplicacion, divicion, resid, poten;
         //agregando valores 
         a = parseInt(prompt('agregar el primer valor '));
         b = parseInt(prompt('agregar el primer valor '));
@@ -15,11 +15,25 @@
         suma = a + b;
         document.write(' el valor de suma es ', suma)
         document.write('<br>');
+       //resta
         resta = a - b;
         document.write(' el valor de resta es ', resta);
         document.write('<br>');
+        //multiplicacion 
         multiplicacion = a * b;
         document.write(' el valor de multiplicacion es ', multiplicacion);
+        document.write('<br>');
+        //divicion 
+        divicion = a / b;
+        document.write(' el valor de la divicion es ', divicion);
+        document.write('<br>');
+        //potencia 
+        poten = a ** b;
+        document.write(' el valor de potencia es ', poten);
+        document.write('<br>');
+         //residuo 
+         resid = a % b;
+        document.write(' el valor del residuo es ', resid);
         document.write('<br>');
 
 
